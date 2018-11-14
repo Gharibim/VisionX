@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC52EDE72190E8CC00EFD243 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EC52EDE62190E8CC00EFD243 /* Resnet50.mlmodel */; };
+		EC9E27E12190DAC00040CAAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E27E02190DAC00040CAAB /* AppDelegate.swift */; };
+		EC9E27E32190DAC00040CAAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E27E22190DAC00040CAAB /* ViewController.swift */; };
+		EC9E27E62190DAC00040CAAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9E27E42190DAC00040CAAB /* Main.storyboard */; };
+		EC9E27E92190DAC00040CAAB /* smartML.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC9E27E72190DAC00040CAAB /* smartML.xcdatamodeld */; };
+		EC9E27EB2190DAC10040CAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9E27EA2190DAC10040CAAB /* Assets.xcassets */; };
+		EC9E27EE2190DAC10040CAAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9E27EC2190DAC10040CAAB /* LaunchScreen.storyboard */; };
+		EC9E27F92190DAC10040CAAB /* smartMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E27F82190DAC10040CAAB /* smartMLTests.swift */; };
+		EC9E28042190DAC10040CAAB /* smartMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E28032190DAC10040CAAB /* smartMLUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC9E27F52190DAC10040CAAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9E27D52190DAC00040CAAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC9E27DC2190DAC00040CAAB;
+			remoteInfo = smartML;
+		};
+		EC9E28002190DAC10040CAAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9E27D52190DAC00040CAAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC9E27DC2190DAC00040CAAB;
+			remoteInfo = smartML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC52EDE62190E8CC00EFD243 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Resnet50.mlmodel; path = related_Stuff/Resnet50.mlmodel; sourceTree = SOURCE_ROOT; };
+		EC9E27DD2190DAC00040CAAB /* smartML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9E27E02190DAC00040CAAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC9E27E22190DAC00040CAAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC9E27E52190DAC00040CAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC9E27E82190DAC00040CAAB /* smartML.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = smartML.xcdatamodel; sourceTree = "<group>"; };
+		EC9E27EA2190DAC10040CAAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC9E27ED2190DAC10040CAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC9E27EF2190DAC10040CAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9E27F42190DAC10040CAAB /* smartMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9E27F82190DAC10040CAAB /* smartMLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartMLTests.swift; sourceTree = "<group>"; };
+		EC9E27FA2190DAC10040CAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9E27FF2190DAC10040CAAB /* smartMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9E28032190DAC10040CAAB /* smartMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartMLUITests.swift; sourceTree = "<group>"; };
+		EC9E28052190DAC10040CAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC9E27DA2190DAC00040CAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9E27F12190DAC10040CAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9E27FC2190DAC10040CAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC9E27D42190DAC00040CAAB = {
+			isa = PBXGroup;
+			children = (
+				EC9E27DF2190DAC00040CAAB /* smartML */,
+				EC9E27F72190DAC10040CAAB /* smartMLTests */,
+				EC9E28022190DAC10040CAAB /* smartMLUITests */,
+				EC9E27DE2190DAC00040CAAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC9E27DE2190DAC00040CAAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC9E27DD2190DAC00040CAAB /* smartML.app */,
+				EC9E27F42190DAC10040CAAB /* smartMLTests.xctest */,
+				EC9E27FF2190DAC10040CAAB /* smartMLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC9E27DF2190DAC00040CAAB /* smartML */ = {
+			isa = PBXGroup;
+			children = (
+				EC9E27E02190DAC00040CAAB /* AppDelegate.swift */,
+				EC9E27E22190DAC00040CAAB /* ViewController.swift */,
+				EC52EDE62190E8CC00EFD243 /* Resnet50.mlmodel */,
+				EC9E27E42190DAC00040CAAB /* Main.storyboard */,
+				EC9E27EA2190DAC10040CAAB /* Assets.xcassets */,
+				EC9E27EC2190DAC10040CAAB /* LaunchScreen.storyboard */,
+				EC9E27EF2190DAC10040CAAB /* Info.plist */,
+				EC9E27E72190DAC00040CAAB /* smartML.xcdatamodeld */,
+			);
+			path = smartML;
+			sourceTree = "<group>";
+		};
+		EC9E27F72190DAC10040CAAB /* smartMLTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC9E27F82190DAC10040CAAB /* smartMLTests.swift */,
+				EC9E27FA2190DAC10040CAAB /* Info.plist */,
+			);
+			path = smartMLTests;
+			sourceTree = "<group>";
+		};
+		EC9E28022190DAC10040CAAB /* smartMLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC9E28032190DAC10040CAAB /* smartMLUITests.swift */,
+				EC9E28052190DAC10040CAAB /* Info.plist */,
+			);
+			path = smartMLUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC9E27DC2190DAC00040CAAB /* smartML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9E28082190DAC10040CAAB /* Build configuration list for PBXNativeTarget "smartML" */;
+			buildPhases = (
+				EC9E27D92190DAC00040CAAB /* Sources */,
+				EC9E27DA2190DAC00040CAAB /* Frameworks */,
+				EC9E27DB2190DAC00040CAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smartML;
+			productName = smartML;
+			productReference = EC9E27DD2190DAC00040CAAB /* smartML.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC9E27F32190DAC10040CAAB /* smartMLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9E280B2190DAC10040CAAB /* Build configuration list for PBXNativeTarget "smartMLTests" */;
+			buildPhases = (
+				EC9E27F02190DAC10040CAAB /* Sources */,
+				EC9E27F12190DAC10040CAAB /* Frameworks */,
+				EC9E27F22190DAC10040CAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC9E27F62190DAC10040CAAB /* PBXTargetDependency */,
+			);
+			name = smartMLTests;
+			productName = smartMLTests;
+			productReference = EC9E27F42190DAC10040CAAB /* smartMLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC9E27FE2190DAC10040CAAB /* smartMLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9E280E2190DAC10040CAAB /* Build configuration list for PBXNativeTarget "smartMLUITests" */;
+			buildPhases = (
+				EC9E27FB2190DAC10040CAAB /* Sources */,
+				EC9E27FC2190DAC10040CAAB /* Frameworks */,
+				EC9E27FD2190DAC10040CAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC9E28012190DAC10040CAAB /* PBXTargetDependency */,
+			);
+			name = smartMLUITests;
+			productName = smartMLUITests;
+			productReference = EC9E27FF2190DAC10040CAAB /* smartMLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC9E27D52190DAC00040CAAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Mohamed Ghribi";
+				TargetAttributes = {
+					EC9E27DC2190DAC00040CAAB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EC9E27F32190DAC10040CAAB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EC9E27DC2190DAC00040CAAB;
+					};
+					EC9E27FE2190DAC10040CAAB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EC9E27DC2190DAC00040CAAB;
+					};
+				};
+			};
+			buildConfigurationList = EC9E27D82190DAC00040CAAB /* Build configuration list for PBXProject "smartML" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC9E27D42190DAC00040CAAB;
+			productRefGroup = EC9E27DE2190DAC00040CAAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC9E27DC2190DAC00040CAAB /* smartML */,
+				EC9E27F32190DAC10040CAAB /* smartMLTests */,
+				EC9E27FE2190DAC10040CAAB /* smartMLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC9E27DB2190DAC00040CAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9E27EE2190DAC10040CAAB /* LaunchScreen.storyboard in Resources */,
+				EC9E27EB2190DAC10040CAAB /* Assets.xcassets in Resources */,
+				EC9E27E62190DAC00040CAAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9E27F22190DAC10040CAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9E27FD2190DAC10040CAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC9E27D92190DAC00040CAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9E27E92190DAC00040CAAB /* smartML.xcdatamodeld in Sources */,
+				EC9E27E32190DAC00040CAAB /* ViewController.swift in Sources */,
+				EC52EDE72190E8CC00EFD243 /* Resnet50.mlmodel in Sources */,
+				EC9E27E12190DAC00040CAAB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9E27F02190DAC10040CAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9E27F92190DAC10040CAAB /* smartMLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9E27FB2190DAC10040CAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9E28042190DAC10040CAAB /* smartMLUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC9E27F62190DAC10040CAAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC9E27DC2190DAC00040CAAB /* smartML */;
+			targetProxy = EC9E27F52190DAC10040CAAB /* PBXContainerItemProxy */;
+		};
+		EC9E28012190DAC10040CAAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC9E27DC2190DAC00040CAAB /* smartML */;
+			targetProxy = EC9E28002190DAC10040CAAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC9E27E42190DAC00040CAAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9E27E52190DAC00040CAAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC9E27EC2190DAC10040CAAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9E27ED2190DAC10040CAAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC9E28062190DAC10040CAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC9E28072190DAC10040CAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC9E28092190DAC10040CAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2MGR7V76S;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = smartML/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.First.smartML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC9E280A2190DAC10040CAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2MGR7V76S;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = smartML/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.First.smartML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC9E280C2190DAC10040CAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2MGR7V76S;
+				INFOPLIST_FILE = smartMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.First.smartMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartML.app/smartML";
+			};
+			name = Debug;
+		};
+		EC9E280D2190DAC10040CAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2MGR7V76S;
+				INFOPLIST_FILE = smartMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.First.smartMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartML.app/smartML";
+			};
+			name = Release;
+		};
+		EC9E280F2190DAC10040CAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2MGR7V76S;
+				INFOPLIST_FILE = smartMLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.First.smartMLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = smartML;
+			};
+			name = Debug;
+		};
+		EC9E28102190DAC10040CAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2MGR7V76S;
+				INFOPLIST_FILE = smartMLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.First.smartMLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = smartML;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC9E27D82190DAC00040CAAB /* Build configuration list for PBXProject "smartML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9E28062190DAC10040CAAB /* Debug */,
+				EC9E28072190DAC10040CAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9E28082190DAC10040CAAB /* Build configuration list for PBXNativeTarget "smartML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9E28092190DAC10040CAAB /* Debug */,
+				EC9E280A2190DAC10040CAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9E280B2190DAC10040CAAB /* Build configuration list for PBXNativeTarget "smartMLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9E280C2190DAC10040CAAB /* Debug */,
+				EC9E280D2190DAC10040CAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9E280E2190DAC10040CAAB /* Build configuration list for PBXNativeTarget "smartMLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9E280F2190DAC10040CAAB /* Debug */,
+				EC9E28102190DAC10040CAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC9E27E72190DAC00040CAAB /* smartML.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC9E27E82190DAC00040CAAB /* smartML.xcdatamodel */,
+			);
+			currentVersion = EC9E27E82190DAC00040CAAB /* smartML.xcdatamodel */;
+			path = smartML.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC9E27D52190DAC00040CAAB /* Project object */;
+}
