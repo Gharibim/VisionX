@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15ECFB9BFFECBCB249AFD61B /* Pods_GharibUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA29CB3B044A78B2B3384667 /* Pods_GharibUITests.framework */; };
+		5630FC734234FE8E1EEB1D39 /* Pods_GharibTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D61D2A7B96481414B7043F1F /* Pods_GharibTests.framework */; };
+		BB0190F6E8CCC5B72B477377 /* Pods_Gharib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479C76556A400BF9D10221C2 /* Pods_Gharib.framework */; };
+		ECE2A963222F4C32001BA180 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE2A962222F4C32001BA180 /* AppDelegate.swift */; };
+		ECE2A965222F4C32001BA180 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE2A964222F4C32001BA180 /* ViewController.swift */; };
+		ECE2A968222F4C32001BA180 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE2A966222F4C32001BA180 /* Main.storyboard */; };
+		ECE2A96B222F4C32001BA180 /* Gharib.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECE2A969222F4C32001BA180 /* Gharib.xcdatamodeld */; };
+		ECE2A96D222F4C33001BA180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE2A96C222F4C33001BA180 /* Assets.xcassets */; };
+		ECE2A970222F4C33001BA180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE2A96E222F4C33001BA180 /* LaunchScreen.storyboard */; };
+		ECE2A97B222F4C33001BA180 /* GharibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE2A97A222F4C33001BA180 /* GharibTests.swift */; };
+		ECE2A986222F4C33001BA180 /* GharibUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE2A985222F4C33001BA180 /* GharibUITests.swift */; };
+		ECE2A994222F4CFA001BA180 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = ECE2A993222F4CFA001BA180 /* tessdata */; };
+		ECE2A996222F4D14001BA180 /* VGG16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = ECE2A995222F4D14001BA180 /* VGG16.mlmodel */; };
+		ECE2A998222F4D2E001BA180 /* DBColorNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE2A997222F4D2E001BA180 /* DBColorNames.swift */; };
+		ECE2A99B222F4DFA001BA180 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE2A999222F4DFA001BA180 /* NextViewController.swift */; };
+		ECE2A99C222F4DFA001BA180 /* PrevViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE2A99A222F4DFA001BA180 /* PrevViewController.swift */; };
+		ECE2A99E222F4E59001BA180 /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE2A99D222F4E59001BA180 /* Preview.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECE2A977222F4C33001BA180 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECE2A957222F4C32001BA180 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECE2A95E222F4C32001BA180;
+			remoteInfo = Gharib;
+		};
+		ECE2A982222F4C33001BA180 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECE2A957222F4C32001BA180 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECE2A95E222F4C32001BA180;
+			remoteInfo = Gharib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2596C58C90F1D62F54D57EC3 /* Pods-GharibUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GharibUITests.debug.xcconfig"; path = "Target Support Files/Pods-GharibUITests/Pods-GharibUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		479C76556A400BF9D10221C2 /* Pods_Gharib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gharib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		666D521B04CC1BADBCDA001C /* Pods-GharibTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GharibTests.release.xcconfig"; path = "Target Support Files/Pods-GharibTests/Pods-GharibTests.release.xcconfig"; sourceTree = "<group>"; };
+		6837DA5EC2E0CFD70CBCFE05 /* Pods-GharibTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GharibTests.debug.xcconfig"; path = "Target Support Files/Pods-GharibTests/Pods-GharibTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91CB56333D922A70C9B05480 /* Pods-Gharib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gharib.debug.xcconfig"; path = "Target Support Files/Pods-Gharib/Pods-Gharib.debug.xcconfig"; sourceTree = "<group>"; };
+		ADD69D3B1D4E1B1647B95AE2 /* Pods-Gharib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gharib.release.xcconfig"; path = "Target Support Files/Pods-Gharib/Pods-Gharib.release.xcconfig"; sourceTree = "<group>"; };
+		CA29CB3B044A78B2B3384667 /* Pods_GharibUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GharibUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61D2A7B96481414B7043F1F /* Pods_GharibTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GharibTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19288118E7A6B082CE25323 /* Pods-GharibUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GharibUITests.release.xcconfig"; path = "Target Support Files/Pods-GharibUITests/Pods-GharibUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ECE2A95F222F4C32001BA180 /* Gharib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gharib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE2A962222F4C32001BA180 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECE2A964222F4C32001BA180 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECE2A967222F4C32001BA180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECE2A96A222F4C32001BA180 /* Gharib.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gharib.xcdatamodel; sourceTree = "<group>"; };
+		ECE2A96C222F4C33001BA180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECE2A96F222F4C33001BA180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECE2A971222F4C33001BA180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE2A976222F4C33001BA180 /* GharibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GharibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE2A97A222F4C33001BA180 /* GharibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GharibTests.swift; sourceTree = "<group>"; };
+		ECE2A97C222F4C33001BA180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE2A981222F4C33001BA180 /* GharibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GharibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE2A985222F4C33001BA180 /* GharibUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GharibUITests.swift; sourceTree = "<group>"; };
+		ECE2A987222F4C33001BA180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE2A993222F4CFA001BA180 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		ECE2A995222F4D14001BA180 /* VGG16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = VGG16.mlmodel; sourceTree = "<group>"; };
+		ECE2A997222F4D2E001BA180 /* DBColorNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBColorNames.swift; sourceTree = "<group>"; };
+		ECE2A999222F4DFA001BA180 /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		ECE2A99A222F4DFA001BA180 /* PrevViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrevViewController.swift; sourceTree = "<group>"; };
+		ECE2A99D222F4E59001BA180 /* Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECE2A95C222F4C32001BA180 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0190F6E8CCC5B72B477377 /* Pods_Gharib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE2A973222F4C33001BA180 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5630FC734234FE8E1EEB1D39 /* Pods_GharibTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE2A97E222F4C33001BA180 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15ECFB9BFFECBCB249AFD61B /* Pods_GharibUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BD8F2FDA94D6B4B49FAEDF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91CB56333D922A70C9B05480 /* Pods-Gharib.debug.xcconfig */,
+				ADD69D3B1D4E1B1647B95AE2 /* Pods-Gharib.release.xcconfig */,
+				6837DA5EC2E0CFD70CBCFE05 /* Pods-GharibTests.debug.xcconfig */,
+				666D521B04CC1BADBCDA001C /* Pods-GharibTests.release.xcconfig */,
+				2596C58C90F1D62F54D57EC3 /* Pods-GharibUITests.debug.xcconfig */,
+				E19288118E7A6B082CE25323 /* Pods-GharibUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D8C55511B98588523686B128 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				479C76556A400BF9D10221C2 /* Pods_Gharib.framework */,
+				D61D2A7B96481414B7043F1F /* Pods_GharibTests.framework */,
+				CA29CB3B044A78B2B3384667 /* Pods_GharibUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECE2A956222F4C32001BA180 = {
+			isa = PBXGroup;
+			children = (
+				ECE2A995222F4D14001BA180 /* VGG16.mlmodel */,
+				ECE2A961222F4C32001BA180 /* Gharib */,
+				ECE2A979222F4C33001BA180 /* GharibTests */,
+				ECE2A984222F4C33001BA180 /* GharibUITests */,
+				ECE2A960222F4C32001BA180 /* Products */,
+				8BD8F2FDA94D6B4B49FAEDF8 /* Pods */,
+				D8C55511B98588523686B128 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ECE2A960222F4C32001BA180 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECE2A95F222F4C32001BA180 /* Gharib.app */,
+				ECE2A976222F4C33001BA180 /* GharibTests.xctest */,
+				ECE2A981222F4C33001BA180 /* GharibUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECE2A961222F4C32001BA180 /* Gharib */ = {
+			isa = PBXGroup;
+			children = (
+				ECE2A962222F4C32001BA180 /* AppDelegate.swift */,
+				ECE2A964222F4C32001BA180 /* ViewController.swift */,
+				ECE2A999222F4DFA001BA180 /* NextViewController.swift */,
+				ECE2A99A222F4DFA001BA180 /* PrevViewController.swift */,
+				ECE2A99D222F4E59001BA180 /* Preview.swift */,
+				ECE2A966222F4C32001BA180 /* Main.storyboard */,
+				ECE2A997222F4D2E001BA180 /* DBColorNames.swift */,
+				ECE2A96C222F4C33001BA180 /* Assets.xcassets */,
+				ECE2A993222F4CFA001BA180 /* tessdata */,
+				ECE2A96E222F4C33001BA180 /* LaunchScreen.storyboard */,
+				ECE2A971222F4C33001BA180 /* Info.plist */,
+				ECE2A969222F4C32001BA180 /* Gharib.xcdatamodeld */,
+			);
+			path = Gharib;
+			sourceTree = "<group>";
+		};
+		ECE2A979222F4C33001BA180 /* GharibTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECE2A97A222F4C33001BA180 /* GharibTests.swift */,
+				ECE2A97C222F4C33001BA180 /* Info.plist */,
+			);
+			path = GharibTests;
+			sourceTree = "<group>";
+		};
+		ECE2A984222F4C33001BA180 /* GharibUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECE2A985222F4C33001BA180 /* GharibUITests.swift */,
+				ECE2A987222F4C33001BA180 /* Info.plist */,
+			);
+			path = GharibUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECE2A95E222F4C32001BA180 /* Gharib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE2A98A222F4C33001BA180 /* Build configuration list for PBXNativeTarget "Gharib" */;
+			buildPhases = (
+				63A2CED5FF6C6E4E71593709 /* [CP] Check Pods Manifest.lock */,
+				ECE2A95B222F4C32001BA180 /* Sources */,
+				ECE2A95C222F4C32001BA180 /* Frameworks */,
+				ECE2A95D222F4C32001BA180 /* Resources */,
+				4C7360687FA196A06FB7AD52 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gharib;
+			productName = Gharib;
+			productReference = ECE2A95F222F4C32001BA180 /* Gharib.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECE2A975222F4C33001BA180 /* GharibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE2A98D222F4C33001BA180 /* Build configuration list for PBXNativeTarget "GharibTests" */;
+			buildPhases = (
+				C2AF0E756940D3A98B40B2BE /* [CP] Check Pods Manifest.lock */,
+				ECE2A972222F4C33001BA180 /* Sources */,
+				ECE2A973222F4C33001BA180 /* Frameworks */,
+				ECE2A974222F4C33001BA180 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECE2A978222F4C33001BA180 /* PBXTargetDependency */,
+			);
+			name = GharibTests;
+			productName = GharibTests;
+			productReference = ECE2A976222F4C33001BA180 /* GharibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECE2A980222F4C33001BA180 /* GharibUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE2A990222F4C33001BA180 /* Build configuration list for PBXNativeTarget "GharibUITests" */;
+			buildPhases = (
+				B873FC1DECFA2163653EEBE5 /* [CP] Check Pods Manifest.lock */,
+				ECE2A97D222F4C33001BA180 /* Sources */,
+				ECE2A97E222F4C33001BA180 /* Frameworks */,
+				ECE2A97F222F4C33001BA180 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECE2A983222F4C33001BA180 /* PBXTargetDependency */,
+			);
+			name = GharibUITests;
+			productName = GharibUITests;
+			productReference = ECE2A981222F4C33001BA180 /* GharibUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECE2A957222F4C32001BA180 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Mohamed Ghribi";
+				TargetAttributes = {
+					ECE2A95E222F4C32001BA180 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					ECE2A975222F4C33001BA180 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ECE2A95E222F4C32001BA180;
+					};
+					ECE2A980222F4C33001BA180 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ECE2A95E222F4C32001BA180;
+					};
+				};
+			};
+			buildConfigurationList = ECE2A95A222F4C32001BA180 /* Build configuration list for PBXProject "Gharib" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECE2A956222F4C32001BA180;
+			productRefGroup = ECE2A960222F4C32001BA180 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECE2A95E222F4C32001BA180 /* Gharib */,
+				ECE2A975222F4C33001BA180 /* GharibTests */,
+				ECE2A980222F4C33001BA180 /* GharibUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECE2A95D222F4C32001BA180 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE2A970222F4C33001BA180 /* LaunchScreen.storyboard in Resources */,
+				ECE2A994222F4CFA001BA180 /* tessdata in Resources */,
+				ECE2A96D222F4C33001BA180 /* Assets.xcassets in Resources */,
+				ECE2A968222F4C32001BA180 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE2A974222F4C33001BA180 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE2A97F222F4C33001BA180 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C7360687FA196A06FB7AD52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gharib/Pods-Gharib-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCR.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gharib/Pods-Gharib-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63A2CED5FF6C6E4E71593709 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gharib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B873FC1DECFA2163653EEBE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GharibUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2AF0E756940D3A98B40B2BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GharibTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECE2A95B222F4C32001BA180 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE2A996222F4D14001BA180 /* VGG16.mlmodel in Sources */,
+				ECE2A99B222F4DFA001BA180 /* NextViewController.swift in Sources */,
+				ECE2A99E222F4E59001BA180 /* Preview.swift in Sources */,
+				ECE2A965222F4C32001BA180 /* ViewController.swift in Sources */,
+				ECE2A998222F4D2E001BA180 /* DBColorNames.swift in Sources */,
+				ECE2A99C222F4DFA001BA180 /* PrevViewController.swift in Sources */,
+				ECE2A963222F4C32001BA180 /* AppDelegate.swift in Sources */,
+				ECE2A96B222F4C32001BA180 /* Gharib.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE2A972222F4C33001BA180 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE2A97B222F4C33001BA180 /* GharibTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE2A97D222F4C33001BA180 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE2A986222F4C33001BA180 /* GharibUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECE2A978222F4C33001BA180 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECE2A95E222F4C32001BA180 /* Gharib */;
+			targetProxy = ECE2A977222F4C33001BA180 /* PBXContainerItemProxy */;
+		};
+		ECE2A983222F4C33001BA180 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECE2A95E222F4C32001BA180 /* Gharib */;
+			targetProxy = ECE2A982222F4C33001BA180 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECE2A966222F4C32001BA180 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE2A967222F4C32001BA180 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECE2A96E222F4C33001BA180 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE2A96F222F4C33001BA180 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECE2A988222F4C33001BA180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECE2A989222F4C33001BA180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECE2A98B222F4C33001BA180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91CB56333D922A70C9B05480 /* Pods-Gharib.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2MGR7V76S;
+				INFOPLIST_FILE = Gharib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.First.Gharib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECE2A98C222F4C33001BA180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADD69D3B1D4E1B1647B95AE2 /* Pods-Gharib.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2MGR7V76S;
+				INFOPLIST_FILE = Gharib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.First.Gharib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECE2A98E222F4C33001BA180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6837DA5EC2E0CFD70CBCFE05 /* Pods-GharibTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2MGR7V76S;
+				INFOPLIST_FILE = GharibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.First.GharibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gharib.app/Gharib";
+			};
+			name = Debug;
+		};
+		ECE2A98F222F4C33001BA180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 666D521B04CC1BADBCDA001C /* Pods-GharibTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2MGR7V76S;
+				INFOPLIST_FILE = GharibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.First.GharibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gharib.app/Gharib";
+			};
+			name = Release;
+		};
+		ECE2A991222F4C33001BA180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2596C58C90F1D62F54D57EC3 /* Pods-GharibUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2MGR7V76S;
+				INFOPLIST_FILE = GharibUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.First.GharibUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gharib;
+			};
+			name = Debug;
+		};
+		ECE2A992222F4C33001BA180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E19288118E7A6B082CE25323 /* Pods-GharibUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2MGR7V76S;
+				INFOPLIST_FILE = GharibUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.First.GharibUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gharib;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECE2A95A222F4C32001BA180 /* Build configuration list for PBXProject "Gharib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE2A988222F4C33001BA180 /* Debug */,
+				ECE2A989222F4C33001BA180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE2A98A222F4C33001BA180 /* Build configuration list for PBXNativeTarget "Gharib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE2A98B222F4C33001BA180 /* Debug */,
+				ECE2A98C222F4C33001BA180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE2A98D222F4C33001BA180 /* Build configuration list for PBXNativeTarget "GharibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE2A98E222F4C33001BA180 /* Debug */,
+				ECE2A98F222F4C33001BA180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE2A990222F4C33001BA180 /* Build configuration list for PBXNativeTarget "GharibUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE2A991222F4C33001BA180 /* Debug */,
+				ECE2A992222F4C33001BA180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ECE2A969222F4C32001BA180 /* Gharib.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ECE2A96A222F4C32001BA180 /* Gharib.xcdatamodel */,
+			);
+			currentVersion = ECE2A96A222F4C32001BA180 /* Gharib.xcdatamodel */;
+			path = Gharib.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ECE2A957222F4C32001BA180 /* Project object */;
+}
